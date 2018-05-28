@@ -23,6 +23,18 @@ body{
   margin-left: 8vw;
   margin-top: 4vw;
 }
+#Machten{
+  display: none;
+  border-style: solid;
+  border-color: #077762;
+  border-width: 10px;
+  background-color: #21b28b;
+  width: 60vw;
+  height: 25.1vw;
+  margin-left: 8vw;
+  margin-top: 4vw;
+}
+
 #antwoordTafels{
   height: 20vw;
 }
@@ -90,6 +102,10 @@ h1{
     display: inline-block;
     font-size: 16px;
     transition: 0.9s;
+}
+.button2:hover {
+    transition: 0.5s;
+    background-color: #b7882a;
 }
 #getal{
   font-family: 'Press Start 2P', cursive;

@@ -1,12 +1,16 @@
-var uitkomst = "";
+var uitkomst;
 var teller = 1;
 var teller2 = 2;
 var max = 101;
-var getal = "";
-var tot = 101;
-var niks = " ";
-function krijgGetal() {
-  tot + 10;
+var getal;
+var tot;
+function Tafels() {
+getal = 0;
+uitkomst = "";
+tot = 0;
+document.getElementById("antwoordTafels").innerHTML = '';
+  tot = document.getElementById("tot").value;
+  tot++;
   getal = document.getElementById("getal").value;
 if (getal > max-1) {
   alert("voer een getal onder de 101 in!");

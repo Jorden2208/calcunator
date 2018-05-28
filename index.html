@@ -25,6 +25,7 @@
       <div class="Scherm1">
         <div id="canvas"> <h1 class="text punt">Welkom</h1> <br> <h1 class="text2" id="punt">Druk op een knop.</h1> </div>
         <div id="tafels"> <h1 id="antwoordTafels" class="text">Tafels</h1> <br> <h1 class="text2" id="textWeg" >Voer een getal onder de 25 in</h1> </div>
+          <div id="Machten"> <h1 id="antwoordMachten" class="text">Machten</h1> <br> <h1 class="text2" id="textWeg" >Voer een getal onder de 25 in</h1> </div>
       </div>
       <div class="Scherm2">
         <div id="uitleg">      </div>
@@ -34,7 +35,7 @@
       <from class="container">
         <input id="getal" type="text" placeholder="Cijfer..">
         <input id="tot" type="text" placeholder="tot getal..">
-        <input id="inputButton" type="submit" name="" value="Start" onclick="krijgGetal()">
+        <input id="inputButton" type="submit" name="" value="Start" onclick="krijgSom()">
       </from>
 
       <div class="container">
@@ -51,6 +52,12 @@
           <button class="button2" type="button" name="button">Hard</button>
 
       </div>
+      <div>
+            <button class="button2" type="button" name="button" onclick="knopMachten()">Machten</button>
+            <button class="button2" type="button" name="button">Normal</button>
+            <button class="button2" type="button" name="button">Hard</button>
+
+        </div>
 
     </div>
   </body>
