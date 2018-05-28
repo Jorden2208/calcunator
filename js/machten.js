@@ -1,9 +1,9 @@
 var uitkomst;
-var teller = 1;
+var teller = 1
 var max = 101;
 var getal;
 var tot;
-function Tafels() {
+function Machten() {
 getal = 0;
 uitkomst = "";
 tot = 0;
