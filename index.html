@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="nl" dir="ltr">
+  <head>
+  <meta charset="UTF-8">
+  <meta name="description" content="reken site">
+  <meta name="keywords" content="HTML,CSS,XML,JavaScript">
+  <meta name="author" content="Jorden van vegten, Roeland van der Velden">
+
+<link href="https://fonts.googleapis.com/css?family=Codystar" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Press+Start+2P" rel="stylesheet">
+ <link rel="stylesheet" href="css/master.css">
+ <script src="js/master.js"></script>
+ <script src="js/tafels.js"></script>
+<script src="js/knoppen.js"></script>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The Calcunator</title>
+  </head>
+  <body>
+    <div class="Boven">
+    <img id="logo" src="images/logo.png" onclick="knopWelkom()" alt="">
+    </div>
+
+    <div class="Schermen">
+
+      <div class="Scherm1">
+        <div id="canvas"> <h1 class="text punt">Welkom</h1> <br> <h1 class="text2" id="punt">Druk op een knop.</h1> </div>
+        <div id="tafels"> <h1 id="antwoordTafels" class="text">Tafels</h1> <br> <h1 class="text2" id="textWeg" >Voer een getal onder de 25 in</h1> </div>
+      </div>
+      <div class="Scherm2">
+        <div id="uitleg">      </div>
+      </div>
+  </div>
+
+      <from class="container">
+        <input id="getal" type="text" placeholder="Cijfer..">
+        <input id="tot" type="text" placeholder="tot getal..">
+        <input id="inputButton" type="submit" name="" value="Start" onclick="krijgGetal()">
+      </from>
+
+      <div class="container">
+
+      <div class="buttons">
+          <button class="button" type="button" name="button">Easy</button>
+          <button class="button" type="button" name="button">Normal</button>
+          <button class="button" type="button" name="button">Hard</button>
+
+      </div>
+      <div>
+          <button class="button2" type="button" name="button" onclick="knopTafels()">Tafels</button>
+          <button class="button2" type="button" name="button">Normal</button>
+          <button class="button2" type="button" name="button">Hard</button>
+
+      </div>
+
+    </div>
+  </body>
+</html>
