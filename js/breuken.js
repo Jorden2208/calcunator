@@ -20,6 +20,7 @@ if (getal > max-1) {
 else{
   while (teller < tot){
     uitkomst += teller + ":" + getal + " = " + getal / teller + "<br>";
+    teller++;
     document.getElementById("antwoordBreuken").innerHTML = uitkomst;
     document.getElementById("antwoordBreuken").style.overflow = "auto";
     document.getElementById("textWegBreuken").innerHTML = " ";
