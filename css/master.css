@@ -35,10 +35,26 @@ body{
   margin-top: 4vw;
 }
 
+#breuken{
+  display: none;
+  border-style: solid;
+  border-color: #077762;
+  border-width: 10px;
+  background-color: #21b28b;
+  width: 60vw;
+  height: 25.1vw;
+  margin-left: 8vw;
+  margin-top: 4vw;
+}
 #antwoordTafels{
   height: 20vw;
 }
-
+#antwoordMachten{
+  height: 20vw;
+}
+#antwoordBreuken{
+  height: 20vw;
+}
 /* hier staan de uitleg canvas dingen */
 #uitleg{
   border-style: solid;

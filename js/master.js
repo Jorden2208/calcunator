@@ -1,9 +1,12 @@
 function krijgSom(){
-var tafels =  document.getElementById("canvas").style.display;
-  if (document.getElementById("canvas").style.display == "block" ) {
-    Tafels();
-  }
-  if (document.getElementById("Machten").style.display == "block" ) {
-    Machten();
-  }
+var tafels = document.getElementById('tafels');
+if(document.getElementById('tafels').style.display == "block"){
+rekenTafels();
+}
+if(document.getElementById('Machten').style.display == "block"){
+rekenMachten();
+}
+if(document.getElementById('breuken').style.display == "block"){
+rekenBreuken();
+}
 }

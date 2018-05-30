@@ -3,7 +3,9 @@ var teller = 1;
 var max = 101;
 var getal;
 var tot;
-function Tafels() {
+
+function rekenTafels() {
+teller = 1;
 getal = 0;
 uitkomst = "";
 tot = 0;
@@ -14,17 +16,14 @@ document.getElementById("antwoordTafels").innerHTML = '';
 if (getal > max-1) {
   alert("voer een getal onder de 101 in!");
 }
-if(teller == tot){
-  teller = 1;
-  document.getElementById("antwoordTafels").innerHTML = " ";
-}
+
 else{
   while (teller < tot){
     uitkomst += teller + "x" + getal + " = " + getal * teller + "<br>";
     teller++;
     document.getElementById("antwoordTafels").innerHTML = uitkomst;
     document.getElementById("antwoordTafels").style.overflow = "auto";
-    document.getElementById("textWeg").innerHTML = " ";
+    document.getElementById("textWegTafels").innerHTML = " ";
   }
 }
 }
