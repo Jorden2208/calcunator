@@ -1,5 +1,6 @@
 body{
   font-family: 'Press Start 2P', cursive;
+  background-color: #4d4d4d;
 }
 /* hier staan de canvas dingen */
 #canvas{
@@ -181,4 +182,9 @@ h1{
 .text2{
   margin-left: 7vw;
   font-size: 2vw;
+}
+.text3{
+  margin-left: 7vw;
+  font-size: 2vw;
+  margin-top: -15vw;
 }
