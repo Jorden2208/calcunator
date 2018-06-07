@@ -9,4 +9,7 @@ rekenMachten();
 if(document.getElementById('breuken').style.display == "block"){
 rekenBreuken();
 }
+if(document.getElementById('priem').style.display == "block"){
+rekenPriem();
+}
 }
