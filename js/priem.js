@@ -1,34 +1,25 @@
-var uitkomst;
-var teller = 2;
-var max = 101;
-var getal;
-var tot;
-var tellerPriem = 2;
-var priemGetal1 = 2;
-var priemGetal2 = 3;
+function rekenPriem(){
+  i = 2;
+  x= 2;
+  document.getElementById("antwoordPriem").innerHTML = "";
+  var maxGetal = document.getElementById('tot').value
+    for(i=2; i<= maxGetal; i++) {
 
-function rekenPriem() {
-teller = 1;
-getal = 0;
-uitkomst = "";
-tot = 0;
-document.getElementById("antwoordPriem").innerHTML = '';
-  tot = document.getElementById("tot").value;
-  tot++;
-  getal = document.getElementById("getal").value;
-  uitkomst = getal + tot;
-if (getal > max-1) {
-  alert("voer een getal onder de 101 in!");
-}
+      var IsPrime = true;
 
-else{
-  while (teller < tot){
-    tellerPriem += 2;
-    uitkomst += getal * teller + "<br>";
-    teller++;
-    document.getElementById("antwoordPriem").innerHTML = uitkomst;
-    document.getElementById("antwoordPriem").style.overflow = "auto";
-    document.getElementById("textWegPriem").innerHTML = " ";
+      for(x = 2; x < i; x++){
+
+        if(i % x == 0){
+          IsPrime = false;
+        }
+      }
+
+      if(IsPrime == true){
+        document.getElementById("antwoordPriem").innerHTML += i + "<br>";
+      }
   }
-}
+
+
+document.getElementById("textWegPriem").innerHTML = " ";
+document.getElementById("antwoordPriem").style.overflow = "auto";
 }
