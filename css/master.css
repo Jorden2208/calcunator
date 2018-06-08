@@ -81,6 +81,10 @@ body{
   margin-left: 1vw;
     margin-top: 4vw;
 }
+#uitlegText{
+  color: white;
+  margin-left: 1vw;
+}
 .uitleg{
   font-family: 'Press Start 2P', cursive;
 }

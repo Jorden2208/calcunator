@@ -5,6 +5,7 @@ var getal;
 var tot;
 
 function rekenTafels() {
+document.getElementById("uitlegText").innerHTML = 'De Calcunator berekent nu tafels.';
 teller = 1;
 getal = 0;
 uitkomst = "";

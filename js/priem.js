@@ -16,7 +16,7 @@ document.getElementById("antwoordPriem").innerHTML = '';
   tot = document.getElementById("tot").value;
   tot++;
   getal = document.getElementById("getal").value;
-  uitkomst = priemGetal1 " - " priemGetal2;
+  uitkomst = getal + tot;
 if (getal > max-1) {
   alert("voer een getal onder de 101 in!");
 }
