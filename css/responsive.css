@@ -1,0 +1,59 @@
+
+#uitleg{
+  border-style: solid;
+  border-color: #077762;
+  border-width: 10px;
+  background-color: #a1e7d4;
+  width: 22.2vw;
+  height: 25.1vw;
+}
+
+#canvas,  #tafels, #Machten, #breuken, #priem{
+  border-style: solid;
+  border-color: #077762;
+  border-width: 10px;
+  background-color: #21b28b;
+  margin-left: 8vw;
+  margin-top: 4vw;
+}
+
+@media screen and (min-width: 787px) {
+  #uitleg{
+    margin-left: 71vw;
+      margin-top: -26.4vw;
+  }
+  #canvas,  #tafels, #Machten, #breuken, #priem{
+    width: 60vw;
+    height: 25.1vw;
+  }
+  #logo{
+    position: absolute;
+    width: 15vw;
+  }
+}
+
+@media screen and (max-width: 786px) {
+  #uitleg{
+    margin-left: 8vw;
+    margin-top: 2vw;
+      width: 70vw;
+      height: 25.1vw;
+}
+#canvas,  #tafels, #Machten, #breuken, #priem{
+  width: 70vw;
+  height: 25.1vw;
+}
+#logo{
+  position: absolute;
+  width: 18vw;
+}
+#getal, #tot, #inputButton{
+  width: 20vw;
+  height: 6vw;
+}
+.button, .button2{
+  margin-left: 0vw;
+  width: 28vw;
+  height: 6vw;
+}
+}

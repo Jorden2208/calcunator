@@ -3,16 +3,7 @@ body{
   background-color: #4d4d4d;
 }
 /* hier staan de canvas dingen */
-#canvas{
-  border-style: solid;
-  border-color: #077762;
-  border-width: 10px;
-  background-color: #21b28b;
-  width: 60vw;
-  height: 25.1vw;
-  margin-left: 8vw;
-  margin-top: 4vw;
-}
+
 #tafels{
   display: none;
   border-style: solid;
@@ -46,7 +37,6 @@ body{
   margin-left: 8vw;
   margin-top: 4vw;
 }
-
 #breuken{
   display: none;
   border-style: solid;
@@ -58,29 +48,13 @@ body{
   margin-left: 8vw;
   margin-top: 4vw;
 }
-#antwoordTafels{
+
+#antwoordTafels, #antwoordMachten, #antwoordBreuken, #antwoordPriem{
   height: 20vw;
 }
-#antwoordMachten{
-  height: 20vw;
-}
-#antwoordBreuken{
-  height: 20vw;
-}
-#antwoordPriem{
-  height: 20vw;
-}
+
 /* hier staan de uitleg canvas dingen */
-#uitleg{
-  border-style: solid;
-  border-color: #077762;
-  border-width: 10px;
-  background-color: #a1e7d4;
-  width: 22.2vw;
-  height: 25.1vw;
-  margin-left: 1vw;
-    margin-top: 4vw;
-}
+
 .uitleg{
   font-family: 'Press Start 2P', cursive;
 }
@@ -88,57 +62,44 @@ h1{
   color: white;
 }
 
-
 /* hier begint de CSS van de site */
 .kopje1{
   background-color: #e75858;
   }
-#logo{
-  position: absolute;
-  width: 15vw;
-}
+
 .bottons{
       margin-top: 5vw;
 }
-.button {
-    font-family: 'Press Start 2P', cursive;
-    margin-top: 5vw;
-    margin-left: 8vw;
-    width: 17vw;
-    height: 2.5vw;
-    background-color: #e75858;
-    border: none;
-    color: white;
-    text-align: center;
-    text-decoration: none;
-    display: inline-block;
-    font-size: 16px;
-    transition: 0.9s;
-}
-.button:hover {
-    transition: 0.5s;
-    background-color: #c44b4b;
-}
-.button2 {
+.button, .button2 {
     font-family: 'Press Start 2P', cursive;
     margin-top: 2vw;
     margin-left: 8vw;
     width: 17vw;
     height: 2.5vw;
-    background-color: #f0c776;
     border: none;
     color: white;
+    background-color: #f0c776;
     text-align: center;
     text-decoration: none;
     display: inline-block;
     font-size: 16px;
     transition: 0.9s;
 }
+.button{
+  Margin-top: 5vw;
+  background-color: #e75858;
+}
+.button:hover {
+    transition: 0.5s;
+    background-color: #c44b4b;
+}
+
 .button2:hover {
     transition: 0.5s;
     background-color: #b7882a;
 }
-#getal{
+
+#getal, #tot, #inputButton{
   font-family: 'Press Start 2P', cursive;
   color: white;
   width: 10vw;
@@ -148,45 +109,21 @@ h1{
   border-color: #077762;
   background-color: #21b28b;
   border-width: 0.4vw;
+}
+#getal{
   margin-left: 8vw;
 }
-#tot{
-  font-family: 'Press Start 2P', cursive;
-  color: white;
-  width: 10vw;
-  height: 3vw;
-  font-size: 1vw;
-  border-style: solid;
-  border-color: #077762;
-  background-color: #21b28b;
-  border-width: 0.4vw;
-}
 #inputButton{
-  font-family: 'Press Start 2P', cursive;
-  color: white;
-  width: 10vw;
-  height: 3vw;
-  font-size: 1vw;
-  border-style: solid;
-  border-color: #077762;
-  background-color: #21b28b;
-  border-width: 0.4vw;
     transition: 0.3s;
 }
 #inputButton:hover{
   transition: 0.3s;
   background-color: #1a9675;
 }
+
 .Boven{
   width: 100%;
   height: 2vw;
-}
-.Scherm1{
-}
-.Scherm2{
-}
-.Schermen{
-  display: flex;
 }
 .text{
   margin-left: 7vw;
