@@ -26,6 +26,17 @@ body{
   margin-left: 8vw;
   margin-top: 4vw;
 }
+#pig{
+  display: none;
+  border-style: solid;
+  border-color: #077762;
+  border-width: 10px;
+  background-color: #21b28b;
+  width: 60vw;
+  height: 25.1vw;
+  margin-left: 8vw;
+  margin-top: 4vw;
+}
 #priem{
   display: none;
   border-style: solid;
@@ -138,4 +149,31 @@ h1{
   margin-left: 7vw;
   font-size: 2vw;
   margin-top: -15vw;
+}
+#mountain{
+  position: absolute;
+  width: 20vw;
+  height: 20vw;
+  margin-top: 5.1vw;
+}
+#cannon{
+  position: absolute;
+  width: 5vw;
+  height: 5vw;
+  margin-top: 4vw;
+  margin-left: 6vw;
+}
+#ball {
+  display: none;
+  width: 64px;
+  height: 64px;
+  background: url('../images/ball.png');
+  margin-left: 6.5vw;
+  margin-top: 3.5vw;
+  animation: run 1s steps(10) infinite;
+}
+@keyframes run {
+  100% {
+    background-position: -640px;
+  }
 }

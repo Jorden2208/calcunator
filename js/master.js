@@ -12,4 +12,7 @@ rekenBreuken();
 if(document.getElementById('priem').style.display == "block"){
 rekenPriem();
 }
+if(document.getElementById('pig').style.display == "block"){
+pig();
+}
 }
