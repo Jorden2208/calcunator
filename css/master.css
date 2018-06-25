@@ -177,3 +177,10 @@ h1{
     background-position: -640px;
   }
 }
+#pighead{
+  position: absolute;
+  width: 2vw;
+  height: 2vw;
+  margin-top: 23.1vw;
+  margin-left: 50vw;
+}
