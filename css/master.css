@@ -65,7 +65,25 @@ body{
 }
 
 /* hier staan de uitleg canvas dingen */
+<<<<<<< HEAD
 
+=======
+#uitleg{
+  border-style: solid;
+  border-color: #077762;
+  border-width: 10px;
+  background-color: #a1e7d4;
+  width: 22.2vw;
+  height: 25.1vw;
+  margin-left: 1vw;
+    margin-top: 4vw;
+}
+#uitlegText{
+  color: white;
+  margin-left: 1vw;
+	font-size: 1.3vw;
+}
+>>>>>>> jorden-features
 .uitleg{
   font-family: 'Press Start 2P', cursive;
 }
@@ -137,11 +155,13 @@ h1{
   height: 2vw;
 }
 .text{
+  text-align: center;
   margin-left: 7vw;
   margin-top: 5vw;
   font-size: 2vw;
 }
 .text2{
+  text-align: center;
   margin-left: 7vw;
   font-size: 2vw;
 }
