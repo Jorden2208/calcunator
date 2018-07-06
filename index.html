@@ -16,11 +16,13 @@
   </head>
 
   <body>
+
       <script src="js/breuken.js" type="text/javascript"></script>
     <script src="js/tafels.js" type="text/javascript"></script>
    <script src="js/knoppen.js " type="text/javascript"></script>
    <script src="js/priem.js" type="text/javascript"></script>
    <script src="js/machten.js" type="text/javascript"></script>
+   <script src="js/pig.js" type="text/javascript"></script>
    <script src="js/master.js" type="text/javascript"></script>
     <div class="Boven">
     <img id="logo" src="images/logo.png" onclick="knopWelkom()" alt="">
@@ -34,9 +36,13 @@
           <div id="breuken"> <h1 id="antwoordBreuken" class="text">Breuken</h1> <br> <h1 class="text3" id="textWegBreuken" >Voer een getal tot 100 in..</h1> </div>
           <div id="Machten"> <h1 id="antwoordMachten" class="text">Machten</h1> <br> <h1 class="text3" id="textWegMachten" >Voer een getal tot 100 in..</h1> </div>
           <div id="priem"> <h1 id="antwoordPriem" class="text">Priem</h1> <br> <h1 class="text3" id="textWegPriem" >Voer een getal tot 100 in..</h1> </div>
+                    <div id="pig"> <img id="mountain" src="images/mountain.png" alt="">  <img id="cannon" src=images/cannon.png
+                      > <div id="ball">
+
+                    </div> </div>
       </div>
       <div class="Scherm2">
-        <div id="uitleg">      </div>
+        <div id="uitleg">  <p id="uitlegText"> </p>    </div>
       </div>
   </div>
 
@@ -70,7 +76,7 @@
   <div>
         <button class="button2" type="button" name="button" onclick="knopBreuken()">Breuken</button>
         <button class="button2" type="button" name="button">Normal</button>
-        <button class="button2" type="button" name="button">Hard</button>
+        <button class="button2" type="button" name="button" onclick="knopPig()">Shooter</button>
 </div>
 
   </body>
