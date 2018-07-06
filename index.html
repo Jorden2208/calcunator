@@ -6,19 +6,21 @@
   <meta name="keywords" content="HTML,CSS,XML,JavaScript">
   <meta name="author" content="Jorden van vegten, Roeland van der Velden">
 
+  <link rel="stylesheet" href="css/typing.css">
+  <script src="js/typing.js"></script>
+
+
 <link href="https://fonts.googleapis.com/css?family=Codystar" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css?family=Press+Start+2P" rel="stylesheet">
  <link rel="stylesheet" href="css/master.css">
 
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-  <script src="js/onload.js" type="text/javascript"></script>
     <title>The Calcunator</title>
   </head>
   <body onload="mountain()">
-
-      <script src="js/breuken.js" type="text/javascript"></script>
-    <script src="js/tafels.js" type="text/javascript"></script>
+   <script src="js/breuken.js" type="text/javascript"></script>
+   <script src="js/tafels.js" type="text/javascript"></script>
    <script src="js/knoppen.js " type="text/javascript"></script>
    <script src="js/priem.js" type="text/javascript"></script>
    <script src="js/machten.js" type="text/javascript"></script>
@@ -31,15 +33,18 @@
     <div class="Schermen">
 
       <div class="Scherm1">
-        <div id="canvas"> <h1 class="text punt">Welkom</h1> <br> <h1 class="text2" id="punt">Druk op een knop.</h1> </div>
+        <div id="canvas">  <div class="text2" id="demo"></div> </div>
         <div id="tafels"> <h1 id="antwoordTafels" class="text">Tafels</h1> <br> <h1 class="text3" id="textWegTafels" >Voer een getal tot 100 in..</h1> </div>
           <div id="breuken"> <h1 id="antwoordBreuken" class="text">Breuken</h1> <br> <h1 class="text3" id="textWegBreuken" >Voer een getal tot 100 in..</h1> </div>
           <div id="Machten"> <h1 id="antwoordMachten" class="text">Machten</h1> <br> <h1 class="text3" id="textWegMachten" >Voer een getal tot 100 in..</h1> </div>
           <div id="priem"> <h1 id="antwoordPriem" class="text">Priem</h1> <br> <h1 class="text3" id="textWegPriem" >Voer een getal tot 100 in..</h1> </div>
-                    <div id="pig"> <img id="pighead" src="images/pig.png" alt="pig"> <img id="mountain" src="images/mountain.png" alt="">  <img id="cannon" src=images/cannon.png
-                      > <div id="ball">
-
-                    </div> </div>
+                    <div id="pig">
+                       <img id="pighead" src="images/pig.png" alt="pig">
+                       <img id="mountain" src="images/mountain.png" alt="">
+                       <img id="cannon" src=images/cannon.png>
+                         <div id="ball">
+                    </div>
+                  </div>
       </div>
       <div class="Scherm2">
         <div id="uitleg">  <p id="uitlegText"> </p>    </div>
@@ -80,6 +85,33 @@
         <button class="button2" type="button" name="button">Normal</button>
         <button class="button2" type="button" name="button" onclick="knopPig()">Shooter</button>
 </div>
+<script>
+_$("demo", 100, 800)
+.lineBreak()
+           .type("Welkom!",{
+             color: "white"
+           }).wait(1000).speed(100)
+           .lineBreak()
+           .lineBreak()
+           .type("Dit is de Calcunator",{
+             color: "white"
+           }).wait(300).speed(300)
+           .lineBreak()
+           .lineBreak()
+           .lineBreak()
+           .lineBreak()
+           .lineBreak()
+           .type("Druk op een knop.",{
+             color: "white"
+           }).wait(300).speed(300)
+           .type(".",{
+             color: "white"
+           }).wait(100).speed(100)
+           .type(".",{
+                color: "white"
+              }).wait(100).speed(100)
 
+
+</script>
   </body>
 </html>

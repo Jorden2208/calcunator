@@ -95,6 +95,7 @@ body{
 #uitlegText{
   color: white;
   margin-left: 1vw;
+	font-size: 1.3vw;
 }
 .uitleg{
   font-family: 'Press Start 2P', cursive;
@@ -204,11 +205,13 @@ h1{
   display: flex;
 }
 .text{
+  text-align: center;
   margin-left: 7vw;
   margin-top: 5vw;
   font-size: 2vw;
 }
 .text2{
+  text-align: center;
   margin-left: 7vw;
   font-size: 2vw;
 }

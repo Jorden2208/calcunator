@@ -1,6 +1,7 @@
 var tot = 20;
 var ball;
 var styleBall;
+var stylePig;
 var marginLeftBall = 1;
 var marginTopBall = 1;
 var gravity = 0.6;
